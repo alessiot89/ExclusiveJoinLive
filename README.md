@@ -1,6 +1,6 @@
 # ExclusiveJoinLive
 
-Allows ARK to take in account any changes at the PlayersExclusiveJoinList.txt file without rebooting the server.
+Allows ARK server to take in account any changes at the PlayersExclusiveJoinList.txt file without rebooting the server.
 
 ## TODO
 * Add admin cheat commands to add IDs from ingame command line.
