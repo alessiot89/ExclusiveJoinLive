@@ -24,5 +24,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
+    <None Include="PluginInfo.json">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
