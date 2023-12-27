@@ -1,6 +1,6 @@
 {
   "FullName":"ExclusiveJoinLive",
   "Description":"Allows server to take in account any live exclusive list changes.",
-  "Version":0.2,
+  "Version":0.9,
   "MinApiVersion":3.54
 }

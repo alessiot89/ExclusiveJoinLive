@@ -2,8 +2,11 @@
 
 Allows ARK server to take in account any changes at the PlayersExclusiveJoinList.txt file without rebooting the server.
 
-## TODO
-* Add admin cheat commands to add IDs from ingame command line.
+To add an account ID:
+cheat ej.add <AccountID>
+
+To remove an account ID:
+cheat ej.remove <AccountID>
 
 ## NOTES:
 * If running ASM, a modified ASM version is needed: https://github.com/alessiot89/ServerManagers
