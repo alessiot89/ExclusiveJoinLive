@@ -151,7 +151,6 @@ void removeExclusiveId( APlayerController* player_controller,
                 std::unordered_set<std::string> playersIds;
                 readIds( playersIds );
                 // Get account ARK ID
-                // Get account ARK ID
                 auto arkID = std::to_string( std::stoull( parsed[1].ToString().c_str() ) );
                 // Steam IDs have at least 16 digits (usually 17, EOS usually 19)
                 if( arkID.length() >= 16 )
