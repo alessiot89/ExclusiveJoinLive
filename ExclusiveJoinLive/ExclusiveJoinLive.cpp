@@ -93,7 +93,7 @@ void addExclusiveId( APlayerController* player_controller,
                      bool )
 {
     auto player = static_cast<AShooterPlayerController*>( player_controller );
-    if( player && player->PlayerStateField() && player->GetPlayerCharacter() && player->bIsAdmin()( ) )
+    if( player && player->PlayerStateField() && player->GetPlayerCharacter() && player->bIsAdmin().Get() )
     {
         TArray<FString> parsed;
         message->ParseIntoArray( parsed,
